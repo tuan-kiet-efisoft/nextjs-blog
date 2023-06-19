@@ -21,7 +21,7 @@ export async function getStaticPaths() {
     const paths = await getAllPostIds()
     return {
         paths,
-        fallback: true
+        fallback: false
     }
 }
 
